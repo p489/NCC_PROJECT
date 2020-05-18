@@ -272,3 +272,43 @@ nav.top-right {
           transition-duration: 0s;
 }
 /*# sourceMappingURL=homepage.css.map */
+.first{
+  background-color: rgba(169,169,169,0.1);
+}
+
+/*responsive images*/
+.image {
+  display: block;
+  width: 400px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: peachpuff;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  opacity:0.5;
+}
+
+.container:hover .overlay {
+  width: 400px;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  
+}
