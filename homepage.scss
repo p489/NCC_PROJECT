@@ -7,7 +7,7 @@ $color-outer : tomato;
 $background: mix($color-inner, $color-outer);
 $black : shade($color-outer, 80%);
 $start-scale : .5;
-$start-rot : 190deg;
+$start-rot : 190deg; /*set the rotation of the wriiten content in the nav bar*/
 
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900');
 

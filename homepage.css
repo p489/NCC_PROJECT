@@ -2,11 +2,15 @@
 html, body {
   height: 100%;
 }
-
+/**/
 body {
+  font-family:Arial,Helvetica,sans-serif;
+  margin: 0;
   background: beige;
-  font-family: Alegreya Sans, sans-serif;
 }
+
+
+
 
 nav {
   display: inline;
@@ -30,9 +34,9 @@ nav.open {
           transform: translate3d(0, 0, 0);
 }
 
-nav.top-right {
+nav.top-left { /*left to right change*/
   top: -140px;
-  right: -140px;
+  left: -140px;
 }
 
 .disc {
